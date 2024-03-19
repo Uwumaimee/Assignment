@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Ed Academy</title>
+</head>
+<style>
+table,td,tr,th{
+    border: 2px solid rgb(9, 9, 9);
+    height: auto;
+    width: 20%;
+}
+table,tr{
+    border-collapse: collapse;
+}
+th{
+    background-color: cyan;
+}
+ul{
+    list-style-type: none;
+    background-color: rgba(103, 53, 13, 0.616);
+    width: fit-content;
+}
+ol{
+    list-style-type:decimal;
+}
+body{
+    width: max-content;
+    background-color: whitesmoke;
+}
+form{
+    border: 2px solid rgb(196, 174, 144);
+    width: 50%;
+    height: fit-content;
+}
+</style>
+<body>
+  <img src="Aimee UWUMUREMYI - edTechLogo.png" width="10%" height="10%" alt="edTechLogo"/>
+ <h1>Student Enrollement Details</h1>
+  <table>
+<tr>
+    <th>student ID</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>course Enrolled</th>
+</tr>
+<tr>
+    <td>20122</td>
+    <td>Ashira</td>
+    <td>21</td>
+    <td>ICT</td>
+</tr>
+<tr>
+    <td>20123</td>
+    <td>Amina</td>
+    <td>23</td>
+    <td>cyber security</td>
+</tr>
+<tr>
+    <td>20124</td>
+    <td>john</td>
+    <td>28</td>
+    <td>Networking</td>
+</tr>
+<tr>
+    <td>20125</td>
+    <td>Jane</td>
+    <td>28</td>
+    <td>Database Management</td>
+</tr>
+  </table>
+    <ol>
+        <h1>Top Course Offered</h1>
+        <li>Cyber Security</li>
+        <li>ICT</li>
+        <li>Software Engineering </li>
+        <li>Networking</li>
+        <li>Database Management </li>
+    </ol>
+    <ul>
+        <h1>Programming Languages</h1>
+<li>Javascipt</li>
+<li>SQL</li>
+<li>Phyton</li>
+<li>Java</li>
+<li>PHP</li>
+    </ul>
+    <dl>
+        <h1>Recommended Books for Student</h1>
+        <dt>Introduction to ICT</dt>
+        <dd>Bernad Beltran, David</dd>
+    </dl>
+    <dl>
+        <dt>How to Learn Javascript</dt>
+        <dd>Brendan Eich</dd>
+    </dl>
+    <dl>
+        <dt>how to create a Database</dt>
+        <dd>Henry F. Korth</dd>
+    </dl>
+    <dl>
+        <dt>How to use PHP</dt>
+        <dd>Rasmus Lerdorf</dd>
+    </dl>
+    <dl>
+        <dt>Introduction to SQL</dt>
+        <dd>Raymond F</dd>
+    </dl>
+    <h1>Student Registration</h1>
+    <form action="#" method="post">
+<label for="name"><b>Full Name</b></label><br>
+<input type="text" placeholder="enter your name" required=""><br>
+<label for="email"><b>Email Address</b><label><br>
+<input type="email" placeholder="enter your email" required=""><br>
+<label for="password"><b>Password</b></label><br>
+<input type="password" placeholder="********" required=""><br>
+<label for="selectedcourse"><b>Select Course</b></label> <br>
+<select name="course" id="course"> <br>
+    <option></option>
+    <option name="home" value="ICT"> Introduction to ICT</option>
+    <option name="pride" value="Java">How to Learn Java</option>
+    <option name="xyz" value="python">Introduction to python</option>
+    <option name="water" value="sql">Database Management</option>
+    <option name="food" value="Math">Introduction to Algebra </option>
+</select><br>
+<label for="gender"><b>Gender</b></label><br>
+<label for="gender">female</label><input type="radio" name="gender"><br>
+<label for="gender">male</label><input type="radio" name="gender"><br>
+<label for="gender">other</label><input type="radio" name="gender"><br>
+<label for="date">Date of Birth</label><br>
+<input type="date" placeholder="DOB" required=""><br>
+<label for="selectedcountry">Country</label>
+<select name="country" id="country"><br>
+    <option name="home" value="country">Kenya</option>
+    <option name="home" value="country">Canada</option>
+<option name="Thousand hills" value="country">Rwanda</option>
+<option name="zahabu" value="country">RDC</option>
+<option name="white" value="country">Australia</option>
+</select> <br>
+<div class="subscribe" style="background-color:bisque">
+<h2>Subscribe to newsletter</h2>
+<label for="Subscribe"><input type="checkbox" name="subscribe" value="subscribe" required="">Subsrcibe to Newsletter</label>
+</div>
+<div class="btndiv" align="right">
+    <input type="submit" value="Submit">
+    </div>
+        </form>
+</body>
+
+</html>
